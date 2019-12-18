@@ -1,5 +1,5 @@
 <?php
- namespace raphael\dio;
+ namespace raphaelbrodrigues\dio;
 
 class Search{
 

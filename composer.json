@@ -1,12 +1,12 @@
 {
-    "name": "raphael/dio",
+    "name": "raphaelbrodrigues/dio",
     "description": "Requisição com Ceps",
     "type": "library",
     "license": ".Corps",
     "authors": [
         {
-            "name": "Raphaelbrodrigues",
-            "email": "raphaelbarbosa.rodrigues@gmail.com"
+            "name": "raphaelbrodriguesbrodrigues",
+            "email": "raphaelbrodriguesbarbosa.rodrigues@gmail.com"
         }
     ],
     "minimum-stability": "stable",
@@ -18,7 +18,7 @@
         "Search": "src/"
       },
       "psr-4":{
-        "raphael\\dio\\":"src"
+        "raphaelbrodrigues\\dio\\":"src"
       }
     }
 }

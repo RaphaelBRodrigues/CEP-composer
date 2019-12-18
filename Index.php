@@ -2,7 +2,7 @@
 require_once "vendor/autoload.php";
 
 
-use raphael\dio\Search;
+use raphaelbrodrigues\dio\Search;
 
 
 $busca = new Search;
