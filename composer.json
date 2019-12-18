@@ -1,0 +1,24 @@
+{
+    "name": "raphael/dio",
+    "description": "Requisição com Ceps",
+    "type": "library",
+    "license": ".Corps",
+    "authors": [
+        {
+            "name": "Raphaelbrodrigues",
+            "email": "raphaelbarbosa.rodrigues@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {
+      "php":">=7.2.0"
+    },
+    "autoload":{
+      "psr-0":{
+        "Search": "src/"
+      },
+      "psr-4":{
+        "raphael\\dio\\":"src"
+      }
+    }
+}
