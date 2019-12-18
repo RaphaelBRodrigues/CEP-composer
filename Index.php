@@ -1,23 +1,13 @@
 <?php
+require_once "vendor/autoload.php";
 
 
+use raphael\dio\Search;
 
 
+$busca = new Search;
+$res = $busca->getAddress("05880250");
 
-
-
-
-function getAddress(string $cep):array{
-  $url = "https://viacep.com.br/ws/";
-
-  $get = file_get_contents($url.$cep.'/json');
-return (array) json_decode($get);
-}
-
-$cep = '05880-250';
-$cep = str_replace("-",'',$cep);
-
-$req = getAddress($cep);
-echo "Seu Cep é:".$cep;
-echo "\n <br>Sua Rua é:".$req['logradouro'];
+echo "Sua rua é:".$res['logradouro'];
+echo "\n Seu Cep é:".$res['cep'];
  ?>
