@@ -1,3 +1,3 @@
 # CEP-composer
 
-para consumir a api com o composer.jhar : composer require raphaelbrodrigues/dio
+para consumir a api com o composer.phar : composer require raphaelbrodrigues/dio
